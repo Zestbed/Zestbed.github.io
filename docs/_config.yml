@@ -18,17 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Silverlight Compendium
-description: A compendium of homebrew information for the Silverlight DND oneshot
+title: Silverlight Compendium
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A compendium of information for the homebrew DND oneshot, Silverlight.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: Zestbed
+twitter_username: 
+github_username:  Zestbed
 
 # Build settings
-remote_theme: minima
+theme: minima
 plugins:
   - jekyll-feed
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -49,4 +51,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
